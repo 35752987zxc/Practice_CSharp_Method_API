@@ -21,16 +21,17 @@ public class Fox : MonoBehaviour
     /// </summary>
     private void spee()
     {
-        float speed = Input.GetAxisRaw("Horizontal") * Time.deltaTime;
+        float speed = Input.GetAxisRaw("Horizontal") ;
     }
 
 
     private void Update()
     {
+        spee();
 
 
 
-       
+
 
     }
 

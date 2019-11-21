@@ -1017,8 +1017,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 41
-  ri: {fileID: 0}
-  sp: {fileID: 0}
+  ri: {fileID: 1148020816}
+  sp: {fileID: 1148020813}
 --- !u!1 &1571837338
 GameObject:
   m_ObjectHideFlags: 0
