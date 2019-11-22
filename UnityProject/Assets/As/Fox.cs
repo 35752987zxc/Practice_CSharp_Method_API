@@ -11,7 +11,7 @@ public class Fox : MonoBehaviour
 
 
 
-
+    public Transform fox;
 
 
 
@@ -19,15 +19,17 @@ public class Fox : MonoBehaviour
     /// <summary>
     /// 移動
     /// </summary>
-    private void spee()
+    private void Spee()
     {
-        float speed = Input.GetAxisRaw("Horizontal") ;
+        float d = Input.GetAxisRaw("Horizontal") * Time.deltaTime;
+
+        fox.Rotate(0, d*speed, 0);
     }
 
 
     private void Update()
     {
-        spee();
+        Spee();
 
 
 
@@ -39,5 +41,5 @@ public class Fox : MonoBehaviour
 
 
 
-
+    
 }

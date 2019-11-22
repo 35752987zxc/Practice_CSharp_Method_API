@@ -1019,6 +1019,7 @@ MonoBehaviour:
   speed: 41
   ri: {fileID: 1148020816}
   sp: {fileID: 1148020813}
+  fox: {fileID: 1148020814}
 --- !u!1 &1571837338
 GameObject:
   m_ObjectHideFlags: 0
